@@ -97,7 +97,7 @@ export default {
       let thomas = this.scene.getObjectByName("thomas");
       if (thomas) {
         thomas.position.x = Math.sin(time * 0.6) * 2;
-        thomas.position.y = Math.sin(time * 0.6) * 2;
+        thomas.position.y = Math.sin(time * 0.6) * 1;
         thomas.position.z = Math.sin(time * 0.6) * 2;
         thomas.rotation.x += 0.01;
         thomas.rotation.y += 0.01;
